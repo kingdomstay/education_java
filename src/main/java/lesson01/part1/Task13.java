@@ -29,7 +29,9 @@ public class Task13 {
     }
 
     public static double getWeight(int earthWeight) {
-        //напишите тут ваш код
-        return 0D;
+        double m = earthWeight;
+        double g = 10 * 0.17 / 10;
+        double Ft = m * g;
+        return Ft;
     }
 }
