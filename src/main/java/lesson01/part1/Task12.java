@@ -1,5 +1,7 @@
 package lesson01.part1;
 
+import java.lang.reflect.Array;
+
 public class Task12 {
 
     /**
@@ -20,6 +22,8 @@ public class Task12 {
         String sausage = "Колбаса";
         String peach = "Персик";
 
-        //напишите тут ваш код
+        System.out.println(apple);
+        System.out.println(peach);
+
     }
 }

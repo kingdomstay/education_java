@@ -15,5 +15,16 @@ public class Task10 {
      */
 
     public static void main(String[] args) {
+        int lH = 15;
+        int nH = 15;
+
+        int lM = 0;
+        int nM = 30;
+
+        int lS = 0;
+        int nS = 0;
+
+        int seconds = ((nH - lH) * 3600) + ((nM - lM) * 60) + (nS - lS);
+        System.out.println(seconds);
     }
 }
