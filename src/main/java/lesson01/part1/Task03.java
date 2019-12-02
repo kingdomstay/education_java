@@ -15,6 +15,6 @@ public class Task03 {
      */
 
     public static void main(String[] args) {
-        System.out.println("2019");
+        System.out.println(2019 - 98);
     }
 }
