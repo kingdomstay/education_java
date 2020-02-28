@@ -14,10 +14,13 @@ package lesson02.part01;
  */
 
 public class Task11 {
-    //напишите тут ваш код
 
     public static void main(String[] args) {
-        //напишите тут ваш код
+        System.out.println(convertToSeconds(2));
+        System.out.println(convertToSeconds(24));
+    }
 
+    private static int convertToSeconds(int i) {
+        return i * 3600;
     }
 }
