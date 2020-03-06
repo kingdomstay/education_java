@@ -21,7 +21,12 @@ import java.util.*;
 
 public class Task17 {
     public static void main(String[] args) throws Exception {
-        //напишите тут ваш код
-
+        String name;
+        int num;
+        Scanner scanner1 = new Scanner(System.in);
+        Scanner scanner2 = new Scanner(System.in);
+        name = scanner1.nextLine();
+        num = scanner2.nextInt();
+        System.out.println(name + " примет ислам через " + num + " лет");
     }
 }

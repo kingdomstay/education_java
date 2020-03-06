@@ -20,7 +20,14 @@ import java.util.*;
 
 public class Task18 {
     public static void main(String[] args) throws Exception {
-        //напишите тут ваш код
-
+        String name;
+        int num1;
+        int num2;
+        Scanner scanner1 = new Scanner(System.in);
+        Scanner scanner2 = new Scanner(System.in);
+        name = scanner1.nextLine();
+        num1 = scanner2.nextInt();
+        num2 = scanner2.nextInt();
+        System.out.println(name + " получает " + num1 + " через " + num2 + " лет.");
     }
 }
